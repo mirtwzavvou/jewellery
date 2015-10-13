@@ -1,0 +1,718 @@
+/*
+Theme Name: Jewellery
+Author: Mirto
+Author URL: 
+Version 1.0
+*/
+
+body {
+	font-family: 'Courier New', monospace;
+	font-size: 16px;
+	color: #ffffff;
+	background: #000000;
+
+}
+a:link,
+a:visited {
+	color: #ffffff;
+}
+p{
+	line-height: 0.2em;
+}
+
+/*General Layout */
+div.container {
+	max-width: 920px;
+	margin: 200px auto;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+article.post {
+	border-bottom: 2px dotted #bbbbbb;
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+
+/* Aside Styles */
+article.post-aside {
+	font-size:125%;
+	background-color: #FFF5CB;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+}
+
+.mini-meta{
+	font-size: 68%;
+	margin: 0;
+	color: #777;
+}
+
+/*Header */
+.site-header {
+	padding-top: 40px;
+	background-color: #000;
+	height: 0;
+	width: 100%;
+}
+
+/* Main Column */
+.main-column {
+	width: 25%;
+	float: left;
+}
+
+/*Side Column */
+.secondary-column {
+	width: 75%;
+	float: right;
+}
+
+/*Special Side Column*/
+.special-side-column{
+	padding-top: 50px;
+	padding-right:250px;
+	width: 50%;
+	float: right;
+}
+
+/* Footer Widget Area */
+.footer-widget-area {
+	width: 25%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+
+/*Footer */
+.site-footer {
+	//margin-top: 5px;
+	//border-top: 2px solid #999;
+}
+
+ /*Navigation Menus */
+ /*Main menu*/
+ .site-nav ul {
+	padding-top: 100px;
+ }
+.site-nav ul:before, .site-nav ul:after { content: ""; display: table; }
+.site-nav ul:after {clear: both; }
+.site-nav ul { *zoom: 1; }
+
+.site-nav ul li {
+	list-style: none;
+}
+
+/*Jewellery menu*/
+.jewel-nav ul {
+	margin: 10px;
+ }
+ 
+ /*Footer menu*/
+.footer-nav ul:before, .footer-nav ul:after { content: ""; display: table; }
+.footer-nav ul:after {clear: both; }
+.footer-nav ul { *zoom: 1; }
+
+.footer-nav ul li {
+	list-style: none;
+}
+
+/* ----------- start Menu Items --------------*/
+
+#menu-item-139 a {
+	display:block; 
+	height:70px; 
+	width:200px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/home.png'); 
+	background-position:0 0;
+}
+#menu-item-126 a {
+	display:block; 
+	height:70px; 
+	width:200px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/jewelry.png'); 
+	background-position:0 0;
+}
+#menu-item-125 a {
+	display:block; 
+	height:70px; 
+	width:200px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/handcrafts.png'); 
+	background-position:0 0;
+}
+#menu-item-124 a {
+	display:block; 
+	height:70px; 
+	width:200px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/contuct.png'); 
+	background-position:0 0;
+}
+
+#menu-item-127 a {
+	display:block; 
+	height:36px; 
+	width:100px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/bracelets.png'); 
+	background-position:0 0;
+}
+
+#menu-item-136 a {
+	display:block; 
+	height:36px; 
+	width:100px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/earrings.png'); 
+	background-position:0 0;
+}
+
+#menu-item-133 a {
+	display:block; 
+	height:36px; 
+	width:100px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/rings.png'); 
+	background-position:0 0;
+}
+
+#menu-item-130 a {
+	display:block; 
+	height:36px; 
+	width:100px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/necklaces.png'); 
+	background-position:0 0;
+}	
+
+#menu-item-128 a {
+	display:block; 
+	height:36px; 
+	width:100px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/winter.png'); 
+	background-position:0 0;
+}
+
+#menu-item-129 a {
+	display:block; 
+	height:36px; 
+	width:100px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/summer.png'); 
+	background-position:0 0;
+}
+
+#menu-item-137 a {
+	display:block; 
+	height:36px; 
+	width:100px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/winter.png'); 
+	background-position:0 0;
+}
+
+#menu-item-138 a {
+	display:block; 
+	height:36px; 
+	width:100px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/summer.png'); 
+	background-position:0 0;
+}
+
+#menu-item-131 a {
+	display:block; 
+	height:36px; 
+	width:100px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/winter.png'); 
+	background-position:0 0;
+}
+
+#menu-item-132 a {
+	display:block; 
+	height:36px; 
+	width:100px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/summer.png'); 
+	background-position:0 0;
+}
+
+#menu-item-134 a {
+	display:block; 
+	height:36px; 
+	width:100px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/winter.png'); 
+	background-position:0 0;
+}
+
+#menu-item-135 a {
+	display:block; 
+	height:36px; 
+	width:100px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/summer.png'); 
+	background-position:0 0;
+}
+
+/* ------------------- end Menu Items --------------------*/
+
+/* Site Header Menu 
+.site-header nav ul li {
+	padding-left: 50px;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+	display: block;
+	padding: 10px 18px;
+	border-bottom: none;
+	text-align: center;
+	text-decoration: none; 
+}
+
+.site-header nav ul li a:hover{
+	background-color: #a89b44;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited,
+.site-header nav ul li.current-page-ancestor a:link,
+.site-header nav ul li.current-page-ancestor a:visited  {
+	border-bottom: 2px solid #ebd01b;
+	//background-color: #ebd01b;
+}*/
+
+.site-header nav ul li {
+	padding-bottom: 10px;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+	display: block;
+	padding: 10px 18px;
+	border-bottom: none;
+	text-align: center;
+}
+
+.site-header nav ul li a:hover{
+	border-bottom: 2px solid #999;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited,
+.site-header nav ul li.current-page-ancestor a:link,
+.site-header nav ul li.current-page-ancestor a:visited  {
+	border-bottom: 2px solid #ebd01b;	
+}
+
+/* Footer Menu */
+.site-footer nav ul li{
+	margin-top: 10px;
+	margin-right: 10px;
+	padding-right: 10px;
+	text-align: center;
+	float: right;
+}
+
+#menu-item-30 a {
+	display:block; 
+	height:50px; 
+	width:50px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/social_01-1-e1435357873445.png'); 
+	background-position:0 0;
+}
+
+#menu-item-31 a {
+	display:block; 
+	height:50px; 
+	width:50px; 
+	padding:0px; 
+	margin-left:6px; 
+	outline:none; 
+	text-indent:-9999px;
+	background-image:url('http://localhost/wordpress/wp-content/uploads/2015/06/social_03-1-e1435357888634.png'); 
+	background-position:0 0;
+}
+
+/* Copyright Style */
+.copyright{
+	color: #999;
+	float:right;
+}
+
+/* Page Layout */
+article.page h2 {
+	font-size: 225%;
+	margin-bottom: 15px;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after { 
+	content: ""; 
+	display: table;
+}
+.clearfix:after { 
+	clear: both; 
+}
+.clearfix { 
+	*zoom: 1; 
+}
+
+/* Logo */
+.logo {
+	max-width: 70%;
+	//margin-left: 50px;
+}
+/* Two Column Title Layout */
+div.menu-column {
+	width: 30%;
+	float: left;
+}
+
+div.text-column {
+	padding-top: 20px;
+	width: 70%;
+	float: right;
+}
+
+/* Children Links */
+.children-links {
+	padding-top: 20px;
+	margin-bottom: 20px;
+	font-size: 80%;
+	list-style-type: none;
+}
+
+.children-links a:link,
+.children-links a:visited {
+	display: block;
+	padding: 10px 18px;
+	border-bottom: none;
+	text-align: center;
+}
+
+/*.children-links ul{
+	padding-top: 20px;
+}*/
+
+.children-links li{
+	margin-right: 20px;
+}
+
+.children-links .parent-link {
+	float: left;
+	margin-right: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #DDD;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.children-links .parent-link a:link,
+.children-links .parent-link a:visited {
+	border-bottom: 2px solid #ebd01b;
+}
+
+.children-links .current_page_item a:link,
+.children-links .current_page_item a:visited {
+	border-bottom: 2px solid #ebd01b;
+}
+
+/*Post Styles */
+.post h2 {
+	margin-bottom: 0;
+}
+
+p.post-info {
+	font-size: 87%;
+	color: #999;
+}
+
+p.post-info a:link,
+p.post-info a:visited {
+	color: #999;
+}
+
+/*Image Styles */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.has-thumbnail {
+	position: relative;
+	padding-left: 200px;
+}
+
+.post-thumbnail {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* The Div that surrounds the Drop Down Menu*/
+#navigation {
+float:left;
+width:100%;
+margin:10px;
+}
+
+/* Menu Bar List */
+ul.dropdown {
+list-style:none; /* Gets rid of bullets in the list */
+width:100%;
+padding: 0 5px; /* Top and bottom padding of 0. Left and right of 5px */
+}
+
+ul.dropdown  li{
+position:relative;
+}
+
+ul.dropdown a { /* Menu link styling */
+padding:12px;
+//color:#FFFFFF; /* Text color of links */
+text-decoration:none; /* Gets rid of underline for links */
+text-shadow:1px 1px 0 #000000; /* Puts a shadow under link 1px down, 1px to right, 0 blur & Black */
+}
+
+/* Styling when a link is hovered over */
+ul.dropdown li:hover a {
+border-bottom: 2px solid #999;
+}
+
+/* Displays Links as Blocks */
+ul.dropdown li ul a {
+display:block;
+}
+
+/* Styling for all of the Sub Menus  */
+
+ul.dropdown ul {
+list-style: none; /* Gets rid of bullets */
+margin:0;
+padding:0;
+width:200px; /* Width of the Drop Down Box */
+position:absolute; /* States that you are going to define exactly in pixels where the drop down appears */
+}
+
+ul.dropdown li ul {
+	//left:px; /* The Drop Down Box appears 24px below the menu when the menu is hovered over*/
+}
+
+ul.dropdown ul ul { /* Styling for secondary drop downs (Drop Downs of a Drop Down) */
+top:0;
+left:100%;
+}
+
+ul.dropdown ul li {
+float:none;
+}
+
+/* Makes drop downs not appear by default unless the mouse hovers */
+ul.dropdown ul,
+ul.dropdown li:hover ul ul,
+ul.dropdown ul li:hover ul ul
+{ display: none; }
+
+ul.dropdown li:hover ul,
+ul.dropdown ul li:hover ul ,
+ul.dropdown ul li ul li:hover ul
+{ display: block;}
+
+ul.dropdown li * a:hover { /* Styling for every link that is hovered over */
+background: #A11C46;
+color: #FFFFFF;
+text-shadow:1px 1px 0 #000000;
+}
+
+/* Jewel Header Menu */
+.jewel-header nav ul li {
+	padding-bottom: 10px;
+}
+
+.jewel-header nav ul li a:link,
+.jewel-header nav ul li a:visited {
+	display: block;
+	padding: 10px 18px;
+	border-bottom: none;
+	text-align: center;
+}
+
+.jewel-header nav ul li a:hover{
+	border-bottom: 2px solid #999;
+}
+
+.jewel-header nav ul li.current-menu-item a:link,
+.jewel-header nav ul li.current-menu-item a:visited,
+.jewel-header nav ul li.current-page-ancestor a:link,
+.jewel-header nav ul li.current-page-ancestor a:visited  {
+	border-bottom: 2px solid #ebd01b;	
+}
+
+/*Jquery Menu*/
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding-top: 10px;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  //-webkit-box-sizing: border-box;
+  //-moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#cssmenu ul li ul{
+	padding-left: 80px;
+}
+#cssmenu ul ul {
+  display: none;
+}
+#cssmenu > ul > li.active > ul {
+  display: block;
+}
+.align-right {
+  float: right;
+}
+#cssmenu > ul > li > a {
+  padding: 16px 22px;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  //background: #3ab4a6;
+  -webkit-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+}
+#cssmenu > ul > li > a:hover {
+  border-bottom: 2px solid #ebd01b;
+}
+/*#cssmenu ul > li.has-sub > a:after {
+  position: absolute;
+  right: 26px;
+  top: 19px;
+  z-index: 5;
+  display: block;
+  height: 10px;
+  width: 2px;
+  background: #ffffff;
+  content: "";
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -ms-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+#cssmenu ul > li.has-sub > a:before {
+  position: absolute;
+  right: 22px;
+  top: 23px;
+  display: block;
+  width: 10px;
+  height: 2px;
+  background: #ffffff;
+  content: "";
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -ms-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+#cssmenu ul > li.has-sub.open > a:after,
+#cssmenu ul > li.has-sub.open > a:before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}*/
+#cssmenu ul ul li a {
+  padding: 14px 2px;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 14px;
+  text-decoration: none;
+  color: #dddddd;
+}
+#cssmenu ul ul ul li a {
+  padding-left: 10px;
+}
+#cssmenu ul ul li a:hover {
+  border-bottom: 2px solid #ebd01b;
+}
+#cssmenu ul ul > li.has-sub > a:after {
+  top: 16px;
+  right: 26px;
+  background: #dddddd;
+}
+#cssmenu ul ul > li.has-sub > a:before {
+  top: 20px;
+  background: #dddddd;
+}
